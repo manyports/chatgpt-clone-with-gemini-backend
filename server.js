@@ -8,7 +8,7 @@ const port = 3000;
 const mongoUri = process.env.MONGO_URI;
 
 const corsOptions = {
-  origin: 'https://chatai-nine-delta.vercel.app/',
+  origin: 'https://chatai-nine-delta.vercel.app',
 };
 
 app.use(cors(corsOptions)); 
